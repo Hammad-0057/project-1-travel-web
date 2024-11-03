@@ -63,7 +63,9 @@ p,li{
 .text-grey{
     color: #555 ;
 }
-
+ .bg-dark{
+    background-color: #263238;
+ }
 
 
 
@@ -83,10 +85,10 @@ p,li{
     background-size:cover;
     background-repeat:  no-repeat;
 }
-.header .nav-bar .logo{
+.nav-bar .logo{
     float: left;
 }
-.header .nav-bar .nav-items{
+ .nav-bar .nav-items{
     float: right;
     margin-top: 1rem;
     text-transform: uppercase;
@@ -99,7 +101,7 @@ p,li{
     clear: both;
 }
 
-.header .nav-bar .nav-item{
+ .nav-bar .nav-item{
     display: inline-block;
 }
 .header .nav-bar{
@@ -218,3 +220,100 @@ p,li{
     display: block;
     clear: both;
 }
+
+/* ################features section styles############### */
+
+.container-1{
+    max-width: 900px;
+    width: 90%;
+    margin: 0px auto;
+}
+.feature{
+padding: 10rem 0;
+
+}
+
+.box-wrapper{
+    box-shadow: 5px 5px 10px 0 rgba(102,102,102,0.37);
+}
+.box {
+    float: left;
+    width: 33.33333333%;
+    text-align: center;
+    padding: 2rem;
+}
+ 
+.box-1 , .box-3{
+    background-color: #263238;
+    color: #fff;
+}
+.box-2{
+    background-color: #fc466b;
+    color: #fff;
+}
+.box-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ############## footer styling##################### */
+.footer{
+    background-color: #263238;
+    color:#f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+.social-media-links i{
+    margin: 2rem;
+    
+}
+
+
+
+/* ################### about page styling ##################### */
+
+.about{
+    padding: 5rem,0;
+}
+ .about-head{
+    border-bottom: 3px solid #e63946;
+    display: block;
+    width: 100%;
+ }
+ .container-1{
+    max-width: 900px;
+    width: 90%;
+    margin: 0px auto;
+ }
+
+ /* ################## about-wrraper styling ###################### */
+
+ .about-wrraper{
+    content: '';
+    display: block;
+    clear: both;
+    text-align: center;
+    margin-top: 2rem;
+ }
+ .about-wrraper .left{
+    float: left;
+    width: 50%;
+ }
+ .about-wrraper .right{
+    float: right;
+    width: 50%;
+ }
+.about-wrraper .left li::before{
+    content: "\2713";
+    padding-right: 1rem;
+    color: #e63946;
+    font-weight: bold;
+}
+    .about-wrraper .right li::before{
+        content: "\2713";
+        padding-right: 1rem;    
+        color: #e63946;
+        font-weight: bold;
+    }
